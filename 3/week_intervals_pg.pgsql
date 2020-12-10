@@ -1,0 +1,1 @@
+select object_id, date_trunc('week', date_created) || ' - ' || date_trunc('week', date_created) + interval '6 days' from objects;
